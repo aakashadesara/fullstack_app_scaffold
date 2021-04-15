@@ -1,2 +1,2 @@
-# fullstack_app_scaffold
+# Fullstack App Scaffold
 Quick Django + React App Scaffold for Side Projects
