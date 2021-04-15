@@ -28,8 +28,7 @@ settings.configure(
 
 @dataclass
 class Node:
-    def __init__(self, val) -> None:
-        self.val = val
+    val: any
 
     def as_dict(self) -> dict:
         return {
