@@ -10,7 +10,7 @@ from firebase_admin import db
 cred = credentials.Certificate("./fbcredentials.json")
 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://sampleapp-875de-default-rtdb.firebaseio.com/'
+    'databaseURL': ''
 })
 ref = db.reference('/')
 
